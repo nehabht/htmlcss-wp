@@ -52,9 +52,29 @@ body{
 
 .yellowbox {
     height: 500px;
-    background-color:#E1D67A ;
+    /* background-color:#E1D67A ; */
+    position: relative;
+}
+
+.banner1{
+    width: 1166px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
 
 }
+
+/* .banner1{
+    width: 1166px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+
+} */
+
+
+
 .bluebox {
     height: 660px;
     background-color: #0086FF;
