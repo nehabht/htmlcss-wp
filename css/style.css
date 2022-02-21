@@ -12,20 +12,39 @@ yellow: #E1D67A;
 pink: #E579E6;
  */
 
+
+/********** body  */
 body{
     width: 1198px;
     margin: auto;
     padding: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* header */
+/********* header */
 
 .site_header{
-    height: 140px;
-    background-color:#E579E6;
+    height: 150px;
+    /* background-color:#E579E6; */
 }
 
-/* main */
+.logo{
+    width: 200px;
+}
+
+.menù {
+    margin-top: 30px;
+    
+}
+
+.menù>a{
+    text-decoration: none;
+    color: grey;
+
+
+}
+
+/********* main */
 
 .site_main {
     margin: 20px 0;
@@ -68,6 +87,7 @@ body{
     margin: 20px 2%; 
 }
 
+/********* footer  */
 
 .site_footer{
     height: 50px;
