@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* palette
+blue: #0086FF;
+purple: #8801FE;
+lightblue: #ABCFE7;
+yellow: #E1D67A;
+pink: #E579E6;
+ */
+
+body{
+    width: 1198px;
+    margin: auto;
+    padding: 16px;
+}
+
+/* header */
+
+.site_header{
+    height: 140px;
+    background-color:#E579E6;
+}
+
+/* main */
+
+.site_main {
+    margin: 20px 0;
+}
+
+.yellowbox {
+    height: 500px;
+    background-color:#E1D67A ;
+
+}
+.bluebox {
+    height: 660px;
+    background-color: #0086FF;
+    margin: 20px 0;
+
+}
+
+.bluerow {
+    width: 1166px;
+    height: 90px;
+    background-color: #ABCFE7;
+    float: left;
+}
+
+
+.sidebar{
+    width: 20%;
+    height: 530px;
+    float: left;
+    background-color: #ABCFE7;
+    margin: 20px 0; 
+    
+}
+
+.content{
+    width: 56%;
+    height: 530px;
+    float: left;
+    background-color: #ABCFE7;
+    margin: 20px 2%; 
+}
+
+
+.site_footer{
+    height: 50px;
+    background-color: #8801FE;
+}
+
+
+/* .clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+} */
