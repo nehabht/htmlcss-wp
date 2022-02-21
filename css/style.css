@@ -61,18 +61,25 @@ body{
     height: 500px;
     object-fit: cover;
     border-radius: 10px;
+    filter: brightness(0.8);
 
 }
 
-/* .banner1{
-    width: 1166px;
-    height: auto;
-    object-fit: cover;
-    object-position: center;
+.banner1_text{
+    color: white;
+    padding: 2px;
+    font-size: 10px;
     position: absolute;
+    margin-right: 400px;
+    bottom: 110px;
+    left: 40px;
+    
+}
 
-} */
-
+.banner1_title{
+    font-size: 30px;
+    font-weight:200 ;
+}
 
 
 .bluebox {
